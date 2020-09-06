@@ -1,0 +1,627 @@
+keysloot:
+  daily:
+    itemID: 4658
+    itemMeta: 0
+    particle: "cloud"
+    displayName: "§fDaily Loot Key"
+    name: "daily"
+    rarity: "Common"
+    items:
+      seedaccelerator:
+        displayName: "&eSeed Accelerator"
+        itemID: 766
+        itemMeta: 0
+        amount: 3
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      ironseeds:
+        displayName: "&eIron Seeds"
+        itemID: 4539
+        itemMeta: 0
+        amount: 10
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      cesiumhoe:
+        displayName: "&eCésium Hoe"
+        itemID: 4563
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      kitdaily:
+        displayName: "&eKit Daily"
+        itemID: 4579
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      cesiumchest:
+        displayName: "&eCésium Chest"
+        itemID: 761
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      votelootkey:
+        displayName: "&eVote Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give vote %player% 1"
+        chance: 1000 # sur 10000
+      xpbottles:
+        displayName: "&eBottle XP"
+        itemID: 384
+        itemMeta: 0
+        amount: 32
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      money1000:
+        displayName: "&e1000$"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "eco give %player% 1000"
+        chance: 1000 # sur 10000
+      xpbottles2:
+        displayName: "&eBottle XP"
+        itemID: 384
+        itemMeta: 0
+        amount: 64
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 500 # sur 10000
+      randomore:
+        displayName: "&eRandom Ore"
+        itemID: 749
+        itemMeta: 0
+        amount: 5
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 500 # sur 10000
+      livrep4:
+        displayName: "&eLivre P4"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "give %player% enchanted_book 1 0 {StoredEnchantments:[{id:0s,lvl:4s}]}"
+        chance: 500 # sur 10000
+      livreu3:
+        displayName: "&eLivre U3"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "give %player% enchanted_book 1 0 {StoredEnchantments:[{id:34s,lvl:3s}]}"
+        chance: 500 # sur 10000
+      dailylootkey:
+        displayName: "&eDaily Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give daily %player% 1"
+        chance: 500 # sur 10000
+      money2500:
+        displayName: "&e2500$"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "eco give %player% 2500"
+        chance: 500 # sur 10000
+      money5000:
+        displayName: "&e5000$"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "eco give %player% 5000"
+        chance: 200 # sur 10000
+      2dailyloot:
+        displayName: "&eDaily Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give daily %player% 2"
+        chance: 200 # sur 10000
+      3cesiumseeds:
+        displayName: "&eCésium Seeds"
+        itemID: 4560
+        itemMeta: 0
+        amount: 3
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 200 # sur 10000
+      3zircoseeds:
+        displayName: "&eZirconium Seeds"
+        itemID: 4533
+        itemMeta: 0
+        amount: 3
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 100 # sur 10000
+  vote:
+    itemID: 4659
+    itemMeta: 0
+    particle: "cloud"
+    displayName: "§fVote Loot Key"
+    name: "vote"
+    rarity: "UnCommon"
+    items:
+      2kitfood:
+        displayName: "&eKit Food"
+        itemID: 4584
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 2000 # sur 10000
+      1arrosoir:
+        displayName: "&eArrosoir Niveau 1"
+        itemID: 4586
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      2cesiumchest:
+        displayName: "&eCésium Chest"
+        itemID: 761
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      dailylootkey:
+        displayName: "&eDaily Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give daily %player% 1"
+        chance: 1000 # sur 10000
+      ironhammer:
+        displayName: "&eIron Hammer"
+        itemID: 4660
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 500 # sur 10000
+      5gapples:
+        displayName: "&ePommes D'or"
+        itemID: 322
+        itemMeta: 0
+        amount: 5
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 500 # sur 10000
+      10gapples:
+        displayName: "&ePommes D'or"
+        itemID: 322
+        itemMeta: 0
+        amount: 10
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 200 # sur 10000
+      1zircochest:
+        displayName: "&eZirconium Chest"
+        itemID: 780
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 100 # sur 10000
+      zircoingot:
+        displayName: "&eZirconium Ingot"
+        itemID: 4551
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 100 # sur 10000
+      money2500:
+        displayName: "&e2500$"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "eco give %player% 2500"
+        chance: 100 # sur 10000
+  cesium:
+    itemID: 4656
+    itemMeta: 0
+    particle: "reddust"
+    displayName: "§fCésium Loot Key"
+    name: "cesium"
+    rarity: "Rare"
+    items:
+      1:
+        displayName: "&eFruit de l'infini"
+        itemID: 4618
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      2:
+        displayName: "&eValkyrite Chest"
+        itemID: 779
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      3:
+        displayName: "&eCésium Chest"
+        itemID: 761
+        itemMeta: 0
+        amount: 16
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      4:
+        displayName: "&ePomme D'or"
+        itemID: 322
+        itemMeta: 0
+        amount: 32
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      5:
+        displayName: "&eCésium Seeds"
+        itemID: 4560
+        itemMeta: 0
+        amount: 20
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      6:
+        displayName: "&eEmerald Hammer"
+        itemID: 4654
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 600 # sur 10000
+      7:
+        displayName: "&eKit Enchant"
+        itemID: 4629
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 500 # sur 10000
+      8:
+        displayName: "&eCésium Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give cesium %player% 1"
+        chance: 500 # sur 10000
+      9:
+        displayName: "&eEnchant Télékinésis"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "give %player% enchanted_book 3 0 {StoredEnchantments:[{id:121s,lvl:1s}]}"
+        chance: 500 # sur 10000
+      10:
+        displayName: "&eChatColor (à vie)"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add essentials.chat.color"
+        chance: 100 # sur 10000
+      11:
+        displayName: "&eZirconium Key Loot"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give zirconium %player% 1"
+        chance: 100 # sur 10000
+      12:
+        displayName: "&eCesium Key Loot"
+        itemID: 1
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give cesium %player% 2"
+        chance: 100 # sur 10000
+  zirconium:
+    itemID: 4657
+    itemMeta: 0
+    particle: "note"
+    displayName: "§fZirconium Loot Key"
+    name: "zirconium"
+    rarity: "Epic"
+    items:
+      1:
+        displayName: "&eKit Farmeur"
+        itemID: 4619
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      2:
+        displayName: "&eValkyrite Chest"
+        itemID: 779
+        itemMeta: 0
+        amount: 3
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      3:
+        displayName: "&eZirconium Chest"
+        itemID: 780
+        itemMeta: 0
+        amount: 10
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      4:
+        displayName: "&eCésium Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give cesium %player% 2"
+        chance: 1000 # sur 10000
+      5:
+        displayName: "&eEnchant Télékinésis"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "give %player% enchanted_book 5 0 {StoredEnchantments:[{id:121s,lvl:1s}]}"
+        chance: 1000 # sur 10000
+      6:
+        displayName: "&eZirconium Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give zirconium %player% 1"
+        chance: 500 # sur 10000
+      7:
+        displayName: "&eChat Color (à vie)"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add essentials.chat.color"
+        chance: 500 # sur 10000
+      8:
+        displayName: "&eGolem Spawner"
+        itemID: 4573
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 100  # sur 10000
+      9:
+        displayName: "&eValkyrite Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give valkyrite %player% 1"
+        chance: 100  # sur 10000
+      10:
+        displayName: "&e/craft (à vie)"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add essentials.craft.*"
+        chance: 100  # sur 10000
+      11:
+        displayName: "&eZirconium Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give zirconium %player% 2"
+        chance: 100  # sur 10000
+  valkyrite:
+    itemID: 4655
+    itemMeta: 0
+    particle: "explode"
+    displayName: "§fValkyrite Loot Key"
+    name: "valkyrite"
+    rarity: "&6&kAA&eLegendary&6&kAA&r"
+    items:
+      1:
+        displayName: "&eKit Travel"
+        itemID: 4616
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      2:
+        displayName: "&eKit Defense"
+        itemID: 4614
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      3:
+        displayName: "&eKit Pillage"
+        itemID: 4581
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      4:
+        displayName: "&eZirconium Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give zirconium %player% 2"
+        chance: 1000 # sur 10000
+      5:
+        displayName: "&eGolem Spawner"
+        itemID: 4573
+        itemMeta: 0
+        amount: 2
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      6:
+        displayName: "&eValkyrite Chest"
+        itemID: 779
+        itemMeta: 0
+        amount: 10
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 1000 # sur 10000
+      7:
+        displayName: "&e2 Lignes EC"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add CustomEnderChest.level.1"
+        chance: 500 # sur 10000
+      8:
+        displayName: "&eValkyrite Loot Key"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "keyloot give valkyrite %player% 1"
+        chance: 500 # sur 10000
+      9:
+        displayName: "&e/p time - /p weather"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add 	essentials.ptime"
+          - "pex user %player% add 	essentials.pweather"
+        chance: 500 # sur 10000
+      10:
+        displayName: "&e/ec"
+        itemID: 1
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+          - "pex user %player% add CustomEnderChest.commands"
+        chance: 500 # sur 10000
+      11:
+        displayName: "&eMask Thonks"
+        itemID: 4592
+        itemMeta: 0
+        amount: 1
+        # %player% , %amount%, %displayName%
+        commands:
+          - "notifyplayer %player% &eTu viens de gagner &6%amount%&ex %displayName% !"
+        chance: 5 # sur 10000

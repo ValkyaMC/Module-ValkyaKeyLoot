@@ -1,0 +1,4 @@
+out/
+.idea/
+!.gitignore
+/Module-ValkyaCrates.iml

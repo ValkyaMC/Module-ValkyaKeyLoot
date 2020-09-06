@@ -1,0 +1,9 @@
+name: ValkyaKeyLoot
+main: fr.volax.valkyacrates.ValkyaCrates
+version: 1.0.01
+author: Volax
+description: Valkya Module - KeyLoot
+commands:
+  keyloot:
+    aliases: [keysloot, keyloots, keysloots, kl]
+    description: KeysLoot command
