@@ -1,2 +1,2 @@
-# Module-ValkyaKeyLoot
-ValkyaKeyLoot
+# ValkyaKeyLoot
+Final Version soon
